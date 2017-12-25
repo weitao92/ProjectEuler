@@ -4,7 +4,7 @@
 first = set() #set for first of month
 firstDay = 1
 first.add(firstDay)
-for year in range(1901,2000):
+for year in range(1901,2001):
     for month in range(1,13):
         if month == 1 or month == 3 or month == 5 or month == 7 or month == 8 or month == 10 or month == 12:
             firstDay += 31
@@ -18,7 +18,7 @@ for year in range(1901,2000):
         first.add(firstDay)
 first.remove(firstDay)
 result = 0
-sunday = 7
+sunday = 6
 while sunday < firstDay:
     if sunday in first:
         result += 1
