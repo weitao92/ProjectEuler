@@ -1,3 +1,5 @@
+#https://projecteuler.net/problem=12
+
 dict = {}
 def numOfFactors(n):
     if n%2 == 0:
